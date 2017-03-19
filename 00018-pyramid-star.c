@@ -3,12 +3,12 @@
 void displayPyramidStar(int nLines) {
     for (int i = 0; i < nLines; i++) {
         for (int j = 0; j < nLines - i - 1; j++) {
-            printf("%s", " ");        
+            printf(" ");        
         }
         for (int j = 0; j < i * 2 + 1; j++) {
-            printf("%s", "*");
+            printf("*");
         }
-        printf("%s", "\n");
+        printf("\n");
     } 
 }
 
